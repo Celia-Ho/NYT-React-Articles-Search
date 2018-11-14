@@ -1,29 +1,25 @@
-# Create React Express App
+# NYT React Articles Search
 
-## About This Boilerplate
+### This is a MERN full stack application that searches the New York Times article API with search terms and search dates.  It also allows users to read or save the articles.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+### Users can enter search terms with search dates.  Search results are returned with headlines, dates, a summary, and links to the original NYT articles.  If no results are returned, a message is displayed to inform the user of that.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+### In the saved articles page, users have access to their saved articles, and can read or delete them at will.
 
-## Starting the app locally
+## Deployment to Heroku
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+[Click here](http://) to see the deployed version
 
-```
-yarn install
-```
+## Technologies used:
+* React
+* Node
+* Express
+* MongoDB
+* Mongoose
+* React Router
+* Axios
+* Yarn
+* Bootstrap/Bootswatch
+* HTML5
+* CSS3
 
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-yarn start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
